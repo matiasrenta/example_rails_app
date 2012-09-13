@@ -13,15 +13,15 @@
 
 ActiveRecord::Schema.define(:version => 20120913185335) do
 
-  create_table "doors", :force => true do |t|
+  create_table "cars", :force => true do |t|
     t.string   "name"
+    t.string   "model"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
-  create_table "cars", :force => true do |t|
+  create_table "doors", :force => true do |t|
     t.string   "name"
-    t.string   "model"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

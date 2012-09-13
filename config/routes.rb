@@ -1,4 +1,6 @@
 ExampleRailsApp::Application.routes.draw do
+  resources :floors
+
   resources :doors
 
   resources :organs

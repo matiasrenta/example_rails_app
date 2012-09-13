@@ -1,4 +1,8 @@
 ExampleRailsApp::Application.routes.draw do
+
+  #comentario para que entre el pencil
+  resources :pencils
+
   resources :floors
 
   resources :doors

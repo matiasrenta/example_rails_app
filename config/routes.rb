@@ -1,4 +1,6 @@
 ExampleRailsApp::Application.routes.draw do
+  resources :organs
+
   resources :machines
 
   # The priority is based upon order of creation:

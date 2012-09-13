@@ -1,5 +1,8 @@
 ExampleRailsApp::Application.routes.draw do
+
   resources :pencils
+
+  resources :floors
 
   resources :doors
 

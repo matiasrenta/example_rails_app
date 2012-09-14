@@ -1,0 +1,58 @@
+// Place all the styles related to the chairs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {font:12px/17px Arial, Helvetica, sans-serif; color:#333; background:#ccc; padding:40px 20px 20px 20px;}
+fieldset {background:#f2f2e6; padding:10px; border:1px solid #fff; border-color:#fff #666661 #666661 #fff; margin-bottom:36px; width:600px;}
+input, textarea, select {font:12px/12px Arial, Helvetica, sans-serif; padding:0;}
+fieldset.action {background:#9da2a6; border-color:#e5e5e5 #797c80 #797c80 #e5e5e5; margin-top:-20px;}
+legend {background:#bfbf30; color:#fff; font:17px/21px Calibri, Arial, Helvetica, sans-serif; padding:0 10px; margin:-26px 0 0 -11px; font-weight:bold; border:1px solid #fff; border-color:#e5e5c3 #505014 #505014 #e5e5c3;}
+label {font-size:11px; font-weight:bold; color:#666;}
+label.opt {font-weight:normal;}
+dl {clear:both;}
+dt {float:left; text-align:right; width:90px; line-height:25px; margin:0 10px 10px 0;}
+dd {float:left; width:475px; line-height:25px; margin:0 0 10px 0;}
+#footer {font-size:11px;}
+
+
+.letratabla {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+
+}
+
+.letraopciones {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #00008b;
+
+}
+
+
+#container {
+  width: 1544px;
+  padding-top: 20px;
+  position: absolute;
+  background-color: #66cdaa;
+
+  border-bottom-color: #6a5acd;
+  border-left-color: #6a5acd;
+  border-right-color: #6a5acd;
+  border-top-color: #66cdaa;
+  border-style: dashed;
+}
+
+#titulo {
+  width: 1544px;
+  height: 50px;
+  font: 30px sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #E6E6E6;
+  border-color: #6a5acd;
+  border-style: dashed;
+}

@@ -1,4 +1,6 @@
 ExampleRailsApp::Application.routes.draw do
+  resources :chairs
+
   resources :floors
 
   resources :doors
@@ -6,6 +8,7 @@ ExampleRailsApp::Application.routes.draw do
   resources :organs
 
   resources :machines
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

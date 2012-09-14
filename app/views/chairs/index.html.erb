@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <html>
+<head>
+
+  <title> - CHAIRS - </title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+
+</head>
+
+<body>
+
+  <div id="titulo" >
+        <a> Listing chairs </a>
+
+  </div>
+<div id="container" >
+
+    <table>
+
+      <tr>
+         <th>Name</th>
+         <th>Material</th>
+         <th>Color</th>
+         <th>Show</th>
+         <th>Edit</th>
+         <th>Destroy</th>
+    </tr>
+
+    <% @chairs.each do |chair| %>
+          
+       <tr>
+         <td class="letratabla" style="width: 200px;">  <%= chair.name %> </td>
+         <td class="letratabla" style="width: 200px;"> <%= chair.material %>  </td>
+         <td class="letratabla" style="width: 200px;"> <%= chair.color %> </td>
+         <td class="letraopciones" style="width: 50px;"> <%= link_to 'Show', chair %> </td>
+         <td class="letraopciones" style="width: 50px;"> <%= link_to 'Edit', edit_chair_path(chair) %></td>
+         <td class="letraopciones" style="width: 50px;"> <%= link_to 'Destroy', chair, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+       </tr>
+    <% end %>
+
+    </table>    <br />
+
+        <%= link_to 'New Chair', new_chair_path %>
+
+
+</div>
+
+</body>
+</html>

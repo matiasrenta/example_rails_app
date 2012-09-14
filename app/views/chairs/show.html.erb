@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @chair.name %>
+</p>
+
+<p>
+  <b>Material:</b>
+  <%= @chair.material %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <%= @chair.color %>
+</p>
+
+
+<%= link_to 'Edit', edit_chair_path(@chair) %> |
+<%= link_to 'Back', chairs_path %>
